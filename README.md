@@ -1,4 +1,4 @@
-# EYOC Team Score
+# IOF Team Score
 
 This is an application for calculating Team Scores at European Youth Orenteering Championships and Junior World Orienteering Championships.
 It uses IOF XML 3.0 result files as input and can export as either HTML or Excel file.

@@ -231,14 +231,14 @@ namespace IOF_Team_Score
             menuTop_OpenFile.ImageTransparentColor = Color.Magenta;
             menuTop_OpenFile.Name = "menuTop_OpenFile";
             menuTop_OpenFile.ShortcutKeys = Keys.Control | Keys.O;
-            menuTop_OpenFile.Size = new Size(215, 22);
+            menuTop_OpenFile.Size = new Size(214, 22);
             menuTop_OpenFile.Text = "&Import Result File";
             menuTop_OpenFile.Click += ImportFile_Click;
             // 
             // toolStripSeparator
             // 
             toolStripSeparator.Name = "toolStripSeparator";
-            toolStripSeparator.Size = new Size(212, 6);
+            toolStripSeparator.Size = new Size(211, 6);
             // 
             // menuTop_Export
             // 
@@ -246,7 +246,7 @@ namespace IOF_Team_Score
             menuTop_Export.ImageTransparentColor = Color.Magenta;
             menuTop_Export.Name = "menuTop_Export";
             menuTop_Export.ShortcutKeys = Keys.Control | Keys.S;
-            menuTop_Export.Size = new Size(215, 22);
+            menuTop_Export.Size = new Size(214, 22);
             menuTop_Export.Text = "&Export Reports";
             menuTop_Export.Click += ExportReport_Click;
             // 
@@ -256,14 +256,14 @@ namespace IOF_Team_Score
             menuTop_exportSheet.ImageTransparentColor = Color.Magenta;
             menuTop_exportSheet.Name = "menuTop_exportSheet";
             menuTop_exportSheet.ShortcutKeys = Keys.Control | Keys.E;
-            menuTop_exportSheet.Size = new Size(215, 22);
+            menuTop_exportSheet.Size = new Size(214, 22);
             menuTop_exportSheet.Text = "&Export Spreadsheet";
             menuTop_exportSheet.Click += ExportSheet_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(212, 6);
+            toolStripSeparator1.Size = new Size(211, 6);
             // 
             // printToolStripMenuItem
             // 
@@ -272,7 +272,7 @@ namespace IOF_Team_Score
             printToolStripMenuItem.ImageTransparentColor = Color.Magenta;
             printToolStripMenuItem.Name = "printToolStripMenuItem";
             printToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.P;
-            printToolStripMenuItem.Size = new Size(215, 22);
+            printToolStripMenuItem.Size = new Size(214, 22);
             printToolStripMenuItem.Text = "&Print";
             // 
             // printPreviewToolStripMenuItem
@@ -281,18 +281,18 @@ namespace IOF_Team_Score
             printPreviewToolStripMenuItem.Image = (Image)resources.GetObject("printPreviewToolStripMenuItem.Image");
             printPreviewToolStripMenuItem.ImageTransparentColor = Color.Magenta;
             printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            printPreviewToolStripMenuItem.Size = new Size(215, 22);
+            printPreviewToolStripMenuItem.Size = new Size(214, 22);
             printPreviewToolStripMenuItem.Text = "Print Pre&view";
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(212, 6);
+            toolStripSeparator2.Size = new Size(211, 6);
             // 
             // menuTop_Exit
             // 
             menuTop_Exit.Name = "menuTop_Exit";
-            menuTop_Exit.Size = new Size(215, 22);
+            menuTop_Exit.Size = new Size(214, 22);
             menuTop_Exit.Text = "E&xit";
             menuTop_Exit.Click += Exit_Click;
             // 
@@ -300,7 +300,7 @@ namespace IOF_Team_Score
             // 
             toolsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { menuTop_Options });
             toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            toolsToolStripMenuItem.Size = new Size(46, 20);
+            toolsToolStripMenuItem.Size = new Size(47, 20);
             toolsToolStripMenuItem.Text = "&Tools";
             // 
             // menuTop_Options
@@ -364,7 +364,7 @@ namespace IOF_Team_Score
             EventTypeLabel.AutoSize = true;
             EventTypeLabel.Location = new Point(15, 20);
             EventTypeLabel.Name = "EventTypeLabel";
-            EventTypeLabel.Size = new Size(20, 15);
+            EventTypeLabel.Size = new Size(0, 15);
             EventTypeLabel.TabIndex = 0;
             // 
             // IOFTeamScore
@@ -377,6 +377,7 @@ namespace IOF_Team_Score
             Controls.Add(lbl_TeamScores);
             Controls.Add(tabs_TeamScore);
             Controls.Add(importResultsBox);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "IOFTeamScore";
             Text = "IOF Team Score Calculator";
             importResultsBox.ResumeLayout(false);

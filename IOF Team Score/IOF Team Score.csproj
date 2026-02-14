@@ -17,7 +17,7 @@ The scores are calculated according to IOF EYOC Manual v1.5 2026 and IOF Rules 2
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Assets\icon.ico" />
+    <Resource Include="Assets\icon.ico" />
   </ItemGroup>
 
   <ItemGroup>

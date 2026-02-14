@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <!-- Versionsnummer -->
+	  <Major>1</Major>
+	  <Minor>0</Minor>
+	  <Build>0</Build>
+  </PropertyGroup>
+</Project>

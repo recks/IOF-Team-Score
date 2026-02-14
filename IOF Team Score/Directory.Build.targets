@@ -1,0 +1,22 @@
+<Project>
+
+  <!-- RELEASE -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <!-- Antal dage siden 2020-01-01 UTC -->
+    <Revision>$([System.DateTime]::UtcNow.Subtract($([System.DateTime]::Parse('2020-01-01'))).Days)</Revision>
+  </PropertyGroup>
+
+  <!-- DEBUG -->
+  <PropertyGroup Condition="'$(Configuration)' != 'Release'">
+    <Revision>0</Revision>
+  </PropertyGroup>
+
+  <!-- Final version -->
+  <PropertyGroup>
+    <Version>$(Major).$(Minor).$(Build).$(Revision)</Version>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <InformationalVersion>$(Version)</InformationalVersion>
+  </PropertyGroup>
+
+</Project>

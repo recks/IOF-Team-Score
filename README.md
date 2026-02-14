@@ -1,15 +1,16 @@
 # EYOC Team Score
 
-This is a Windows application for calculating Team Scores at European Youth Orenteering Championships.
+This is an application for calculating Team Scores at European Youth Orenteering Championships and Junior World Orienteering Championships.
 It uses IOF XML 3.0 result files as input and can export as either HTML or Excel file.
-The scores are calculated according to IOF EYOC Manual v1.4 2023.
+The scores are calculated according to IOF EYOC Manual v1.5 2026 and IOF Rules 2026 JWOC.
 
 ## Download
 
-You can find the latest release here: <https://github.com/recks/EYOC-Team-Score/releases>
+You can find the latest release here: <https://github.com/recks/IOF-Team-Score/releases>
 
 ## Quick guide
 
+- First specify which type of event, you will be calculating scores for. This is done in _Tools_ -> _Options_ menu.
 - You load a result file into the application using the _Import Result File_ button. Multiple files can be imported by repeating. A file can be removed by right-clicking the file in the list of files.
 - When you are satisfied, you click the _Calculate Team Score_ button and the calculated score can be seen - both as a total and in a detailed view.
 - The scores can be exported both as HTML and in a spreadsheet for further managing. This is done using the _File_ menu. You can change whether CSS should be exported with the HTML file using the _Tools -> Options_ menu.
